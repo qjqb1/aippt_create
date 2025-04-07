@@ -11,7 +11,7 @@ docker pull crpi-1coe6qanb02szvo8.cn-beijing.personal.cr.aliyuncs.com/xiaojiangt
 
 ### 2. 运行容器
 
-docker run -d -v yourpath:/tmp/pptx -e TEMP_DIR=/tmp/pptx -p your port:5000
+docker run -d -v < your path >:/tmp/pptx -e TEMP_DIR=/tmp/pptx -p < your port >:5000
 
 ### 3. 调用API
 
@@ -36,7 +36,7 @@ http://< Your IP or Domain >:< port >/generate-pptx
 输出物：
 {
     "download_url": "http://< your ip or domain >:< port >/download/< files name >.pptx",
-    "filename": "<files name>.pptx"
+    "filename": "< files name >.pptx"
 }
 ## 服务说明
 - 镜像服务将Marp格式的PPT转换为PPTX
