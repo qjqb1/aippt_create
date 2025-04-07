@@ -16,7 +16,7 @@ docker run -d -v yourpath:/tmp/pptx -e TEMP_DIR=/tmp/pptx -p your port:5000
 ### 3. 调用API
 
 请求地址：
-http://<Your IP or Domain>:<port>/generate-pptx
+http://< Your IP or Domain >:<port>/generate-pptx
 
 请求头：
 {
@@ -35,7 +35,7 @@ http://<Your IP or Domain>:<port>/generate-pptx
 ## 示例返回
 输出物：
 {
-    "download_url": "http://<your ip or domain>:<port>/download/<files name>.pptx",
+    "download_url": "http://< your ip or domain >:<port>/download/<files name>.pptx",
     "filename": "<files name>.pptx"
 }
 ## 服务说明
