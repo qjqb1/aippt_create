@@ -46,6 +46,7 @@ http://< Your IP or Domain >:< port >/generate-pptx
 ## 版权声明
 本项目受版权保护，任何个人或组织可下载、试用本项目；
 获取源码请联系作者。
+本项目大量借用了marp项目的技术 https://marp.app/ 。
 
 ## 使用条款
 如须商用或修改本项目必须：
